@@ -2,7 +2,7 @@ import Root from "./Root";
 import FeaturedProduct from "./FeaturedProduct";
 import Condition from "./Condition";
 import ProductCard from "./ProductCard";
-import PageLayout from "./pageLayout";
+import PageLayout from "./PageLayout";
 import Preorder from "./Preorder";
 import Headings from "./Headings";
 import Footer from "./Footer";
