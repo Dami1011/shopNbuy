@@ -88,7 +88,8 @@ export const trackOrders = async (req, res) => {
       order.deliveredAt = Date.now();
     }
     const updatedOrder = await order.save();
+    res.status(200).json(updatedOrder);
   } catch (error) {
-    res.status(500).json(error)
+    res.status(500).json(error);
   }
 };
