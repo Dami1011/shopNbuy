@@ -6,7 +6,7 @@ import PageLayout from "./PageLayout";
 import Preorder from "./Preorder";
 import Headings from "./Headings";
 import Footer from "./Footer";
-import ProductDetails from "./ProductDetails";
+import ProductDetails from "../pages/ProductDetails";
 import ImageModal from "./ImageModal";
 import Paypal from "./Paypal";
 import UpdateProfile from "./UpdateProfile";
