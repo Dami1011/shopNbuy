@@ -21,5 +21,5 @@ export default function useFetchData(url, options, token) {
     };
     fetchData();
   }, [url, options, token]);
-  return { data, error, loading };
+  return { data, error, loading, setData };
 }
